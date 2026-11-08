@@ -1,11 +1,11 @@
-
+import os
 import discord
 from discord.ext import commands
 from discord import app_commands
 import asyncio
 import time
 
-TOKEN = "YOUR_NEW_BOT_TOKEN"
+TOKEN = os.environ["DISCORD_TOKEN"]
 INVITE = "https://discord.gg/7eUAujTK"
 
 intents = discord.Intents.default()
